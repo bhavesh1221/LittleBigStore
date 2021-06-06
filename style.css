@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+.logo img{
+    width: 180px;
+    height: 150px;
+    position: absolute;
+    left: 42%;
+    top: -30px;
+}
+.logo h3{
+    position: absolute;
+    left: 38%;
+    top: 80px;
+    z-index: 1;
+}
+.list{
+    position: absolute;
+    top: 18%;
+    left: 28%;
+}
+.list a{
+   color: black;  
+}
+.iconsss{
+    position: absolute;
+    top: 23%;
+    left: 42%;
+}
+.barNav{
+    position: relative;
+    top: 190px;
+}
+
+.nav-item i.fa.fa-heart{
+    color: red;
+}
+.nav-item i.fas.fa-person-booth{
+    color: blue;
+}
+.nav-item i.fa.fa-arrow-right{
+    color: green;
+}
+.nav-item i.fas.fa-paperclip{
+    color: grey;
+}
+.nav-item i.fa.fa-cart-plus{
+    color: yellow;
+}
+
+.nav-item i.fa.fa-twitter{
+    color: blue;
+}
+.nav-item i.fa.fa-instagram{
+    color: orangered;
+}
+.nav-item i.fa.fa-pinterest{
+    color: orangered;
+}
+
+/* .video-contanier {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: url(bg.jpg) no-repeat center center fixed;
+  }
+  ​
+  .video-contanier video {
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .video-contanier:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+  } */
+.video-contanier{
+    height: 400px;
+    width: 100%;
+    border: 1px solid red; 
+    position: absolute;   
+    top: 35%;
+}
+
+#vid{
+    height: 400px;
+    width: 1000px;
+    border: 1px solid black;    
+}
